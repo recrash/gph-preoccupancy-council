@@ -1,0 +1,194 @@
+# Go 백엔드
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Build artifacts
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# React TypeScript 프론트엔드 (webUI/)
+webUI/node_modules/
+webUI/.pnp
+webUI/.pnp.js
+
+# Testing
+webUI/coverage/
+
+# Production builds
+webUI/dist/
+webUI/build/
+
+# Runtime data
+webUI/pids
+webUI/*.pid
+webUI/*.seed
+webUI/*.pid.lock
+
+# Coverage directory used by tools like istanbul
+webUI/coverage/
+webUI/*.lcov
+
+# nyc test coverage
+webUI/.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+webUI/.grunt
+
+# Bower dependency directory (https://bower.io/)
+webUI/bower_components
+
+# node-waf configuration
+webUI/.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+webUI/build/Release
+
+# Dependency directories
+webUI/node_modules/
+webUI/jspm_packages/
+
+# TypeScript cache
+webUI/*.tsbuildinfo
+
+# Optional npm cache directory
+webUI/.npm
+
+# Optional eslint cache
+webUI/.eslintcache
+
+# Optional stylelint cache
+webUI/.stylelintcache
+
+# Microbundle cache
+webUI/.rpt2_cache/
+webUI/.rts2_cache_cjs/
+webUI/.rts2_cache_es/
+webUI/.rts2_cache_umd/
+
+# Optional REPL history
+webUI/.node_repl_history
+
+# Output of 'npm pack'
+webUI/*.tgz
+
+# Yarn Integrity file
+webUI/.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+webUI/.cache
+webUI.parcel-cache
+
+# Next.js build output
+webUI/.next
+webUI/out
+
+# Nuxt.js build / generate output
+webUI/.nuxt
+webUI/dist
+
+# Gatsby files
+webUI/.cache/
+webUI/public
+
+# Storybook build outputs
+webUI.out
+webUI.storybook-out
+webUI/storybook-static
+
+# Temporary folders
+webUI/tmp/
+webUI/temp/
+
+# Editor directories and files
+webUI.vscode/*
+!webUI.vscode/extensions.json
+webUI.idea
+webUI*.suo
+webUI*.ntvs*
+webUI*.njsproj
+webUI*.sln
+webUI*.sw?
+
+# Local Netlify folder
+webUI.netlify
+
+# Vite
+webUI.vite
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Local development files
+local/
+dev/ 
+
+# CursorRules
+.cursor/
