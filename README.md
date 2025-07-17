@@ -31,14 +31,14 @@ gph-preoccupancy-council/
 └── go.mod                  # Go 모듈 파일
 ```
 
-## 사전 요구사항
+## 개발 환경
 
-- Go 1.21+
-- Node.js 18+
-- PostgreSQL 16
-- Docker (선택사항)
+이 프로젝트는 VS Code Dev Container를 사용하여 개발 환경을 제공합니다.
 
-## 설정
+### Dev Container 실행
+
+1. VS Code에서 프로젝트를 열고 Dev Container로 다시 열기
+2. 컨테이너가 빌드되면 모든 개발 도구가 준비됩니다
 
 ### 백엔드 (Go)
 
