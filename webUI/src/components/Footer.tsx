@@ -1,6 +1,10 @@
+import './Footer.css'
+
 function Footer () {
     return (
-        <h1>Footer Called</h1>
+        <footer className = "footer">
+            <h1>Footer Called</h1>
+        </footer>
     )
 }
 
