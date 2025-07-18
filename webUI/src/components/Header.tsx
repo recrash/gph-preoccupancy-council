@@ -3,10 +3,10 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material'
 
 function Header () {
     return (
-        <AppBar position = "static">
+        <AppBar position = "absolute" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
             <Toolbar>
                 <Typography variant ="h6" component="div" sx={{ flexGrow: 1 }}>
-                    고척 푸르지오 힐스테이트 입주예정자협의회
+                    Test Message
                 </Typography>
 
                 <Button color="inherit">소개</Button>
